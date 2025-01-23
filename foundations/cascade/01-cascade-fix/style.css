@@ -8,13 +8,29 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+  color: aquamarine;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 10px, 10px, 10px, 50px;
+  
+}
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
 }
 
 .confirm {
@@ -23,20 +39,8 @@ body {
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
 }
